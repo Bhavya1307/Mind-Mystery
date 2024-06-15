@@ -1,0 +1,450 @@
+/* Body styles */
+body {
+    background-color: #F79489;
+    display: flex;
+}
+
+/* Board styles */
+#mainBoard {
+    background-color: #ffffff;
+    height: 835px;
+    width: 840px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/*h3 {
+    position: relative;
+	top: 32px;
+    text-align: center;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    -webkit-text-stroke: 0.8px rgb(0, 0, 0);
+    color: white;
+}*/
+
+/* Styling the boxes */
+#box1 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border: 2px solid black;
+    background: url("../images/Bonus.png"); /* Adding an image as a background */
+    background-size: 100px 100px;
+}
+
+#box2 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    border: 2px solid black;
+    background: url("../images/color3.png");
+    background-size: 100px 100px;
+}
+
+#box3 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 90px;
+    left: 30px;
+    border: 2px solid black;
+    background: url("../images/color2.png");
+    background-size: 100px 100px;
+}
+
+#box4 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    border: 2px solid black;
+    background: url("../images/color1.png");
+    background-size: 100px 100px;
+}
+
+#box5 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 150px;
+    left: 30px;
+    border: 2px solid black;
+    background: url("../images/color4.png");
+    background-size: 100px 100px;
+}
+
+#box6 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 180px;
+    left: 30px;
+    border: 2px solid black;
+    background: url("../images/start.png");
+    background-size: 100px 100px;
+}
+
+#box7 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 76px;
+    left: 165px;
+    border: 2px solid black;
+    background: url("../images/color2.png");
+    background-size: 100px 100px;
+}
+
+#box8 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 28px;
+    left: 300px;
+    border: 2px solid black;
+    background: url("../images/color1.png");
+    background-size: 100px 100px;
+}
+
+#box9 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 132px;
+    left: 435px;
+    border: 2px solid black;
+    background: url("../images/color4.png");
+    background-size: 100px 100px;
+}
+
+#box10 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 236px;
+    left: 570px;
+    border: 2px solid black;
+    background: url("../images/color3.png");
+    background-size: 100px 100px;
+}
+
+#box11 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 340px;
+    left: 705px;
+    border: 2px solid black;
+    background: url("../images/Bonus2.png");
+    background-size: 100px 100px;
+}
+
+#box12 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 578px;
+    left: 705px;
+    border: 2px solid black;
+    background: url("../images/color1.png");
+    background-size: 100px 100px;
+}
+
+#box13 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 816px;
+    left: 705px;
+    border: 2px solid black;
+    background: url("../images/color4.png");
+    background-size: 100px 100px;
+}
+
+#box14 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 1054px;
+    left: 705px;
+    border: 2px solid black;
+    background: url("../images/color3.png");
+    background-size: 100px 100px;
+}
+
+#box15 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 1292px;
+    left: 705px;
+    border: 2px solid black;
+    background: url("../images/color2.png");
+    background-size: 100px 100px;
+}
+
+#box16 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 1530px;
+    left: 705px;
+    border: 2px solid black;
+    background: url("../images/Bonus3.png");
+    background-size: 100px 100px;
+}
+
+#box17 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 1634px;
+    left: 570px;
+    border: 2px solid black;
+    background: url("../images/color4.png");
+    background-size: 100px 100px;
+}
+
+#box18 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 1738px;
+    left: 435px;
+    border: 2px solid black;
+    background: url("../images/color3.png");
+    background-size: 100px 100px;
+}
+
+#box19 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 1842px;
+    left: 300px;
+    border: 2px solid black;
+    background: url("../images/color2.png");
+    background-size: 100px 100px;
+}
+
+#box20 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 1946px;
+    left: 165px;
+    border: 2px solid black;
+    background: url("../images/color1.png");
+    background-size: 100px 100px;
+}
+
+/* logo styles - In the middle of the board */
+#gamelogo {
+    height: 500px;
+    width:500px;
+    position: absolute;
+    bottom: 220px;
+    left: 220px;
+}
+
+/* Box containing text and dice */
+#box {
+    height: 835px;
+    width: 500px;
+    background-color: #ffffff;
+    margin: auto;
+    border: 2px solid black;
+}
+
+/* Styling the game name */
+h1 {
+    font-size: 90px;
+    color:#F79489;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 0.1px black;
+}
+
+/* Dice box styles */
+#diceContainer {
+    height: 400px;
+    width: 400px;
+    background-color: #F79489;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px solid black;
+}
+
+/* Dice styles */
+#dice {
+    height: 300px;
+    width: 300px;
+    margin: 50px 50px 50px;
+    cursor: pointer;
+}
+
+/* Token styles */
+#token {
+    height: 70px;
+    width: 60px;
+    position: relative;
+    left:15px;
+    top: 10px;
+}
+
+/* Question box styles */
+#questionBox {
+    display: none;
+    height: 500px;
+    width: 500px;
+    background-color: #F79489;
+    position: absolute;
+    bottom: 220px;
+    left: 220px;
+    border-radius: 30px;
+}
+
+/* Question styles */
+#questionText {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    background-color: #ffffff;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+/* Input field styles */
+#answerInput {
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+/* Button styles */
+#submitAnswer {
+    position: absolute;
+    top: 280px;
+    left: 205px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Feedback styles */
+#feedback {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    height: 45px;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    display: none;
+    padding-top: 10px;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* Another feedback styles */
+#feedback2 {
+    position: absolute;
+    top: 330px;
+    left: 100px;
+    height: 45px;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    display: none;
+    padding-top: 10px;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+/* Final scorecard styles */
+#scorecard {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left:50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    display: none;
+}
+
+/* Score styles */
+#score {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    position: absolute;
+    top: 230px;
+}
+
+/* Retry button styles */
+#retry {
+    position: absolute;
+    bottom: 30px;
+    left: 140px;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Next button styles */
+#next {
+    position: absolute;
+    top: 250px;
+    left: 205px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    cursor: pointer;
+    display: none;
+}
